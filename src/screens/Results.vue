@@ -3,11 +3,11 @@
     <h2 class="results__title">{{text && text.title ? text.title : ''}}</h2>
 
     <div class="results__match">
-      <img src="../assets/img/adult/7.jpg" class="results__image">
+      <img src="../assets/img/girls/7.jpg" class="results__image">
 
       <p class="results__location">0.9 km</p>
       
-      <p class="results__name">Daniela, 25</p>
+      <p class="results__name">Анастасія, 25</p>
     </div>
 
     <ul class="results__list">
@@ -22,7 +22,7 @@
 
     </ul>
 
-    <a href="tel:123456789" @click="sendClick()" v-metrics class="results__btn callBtn animated infinite pulse">
+    <a href="tel:123456789" class="results__btn callBtn animated infinite pulse">
       {{text && text.callButton ? text.callButton : ''}}
     </a>
   </div>
@@ -30,19 +30,14 @@
 
 <script>
 import "@/assets/styles/animation.css";
-import { sendCLick } from '@/services/landAPI';
+
 
 export default {
   name: 'results',
-  props: ['text', 'clickID', 'skey'],
+  props: ['text'],
     data() {
       return {
         }
-  },
-  methods: {
-    sendClick() {
-      sendCLick(this.clickID, this.skey)
-    },
   },
 }
 </script>
@@ -63,7 +58,7 @@ export default {
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: #000;
     text-align: center;
   }
 
@@ -142,7 +137,7 @@ export default {
       content: '';
       position: absolute;
       top: 50%;
-      left: 34%;
+      left: 30%;
       width: 24px;
       height: 24px;
       background: url('../assets/img/call.svg');

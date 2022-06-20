@@ -5,12 +5,12 @@
 
       <div class="header" v-if="currentPage != 'test' || currentPage === 'calculate'">
         <img src="./assets/img/hungary.svg" class="header__logo">
-        <p class="header__text">Date Book</p>
+        <p class="header__text">Знайомства</p>
       </div>
 
       <div class="headerTest" v-else>
         <img src="./assets/img/hungary.svg" class="header__logo">
-        <p class="headerTest__text">Date Book</p>
+        <p class="headerTest__text">Знайомства</p>
       </div>
 
       <Start v-if="currentPage === 'start'" @nextPage="onNextPage" :text="getTextStart" />
@@ -20,7 +20,7 @@
 
       <Calculate v-if="currentPage === 'calculate'" @nextPage="onNextPage" :text="getTextCalculate" />
 
-      <Results v-if="currentPage === 'results'" :clickID="click_id" :skey="key" :text="getTextResult" />
+      <Results v-if="currentPage === 'results'" :text="getTextResult" />
 
     </div>
 
@@ -32,7 +32,6 @@
 <script>
 import "normalize.css";
 import "@/assets/styles/font.css";
-import { postSubs } from "./services/landAPI";
 import allText from '@/mixins/allText';
 import Start from "@/screens/Start";
 import Test from "./screens/Test";
@@ -54,9 +53,6 @@ export default {
   data() {
     return {
       currentPage: 'start',
-      click_id: null,
-      key: null,
-      QUERY: this.getQuery(window.location.search) || null,
       bodyHeight: 0,
     };
   },
@@ -101,16 +97,6 @@ export default {
     }
   },
   mounted() {
-    this.changeSub();
-    if (!this.QUERY.click_id) {
-      this.key = this.keyGenerate(12);
-      let data = JSON.stringify(this.QUERY);
-      postSubs(data, this.key).then((response) => {
-        this.click_id = response.data;
-      });
-    } else {
-      this.click_id = this.QUERY.click_id;
-    };
     this.changeWindowSize();
     window.onresize = () => this.changeWindowSize();
   },
@@ -128,11 +114,11 @@ p, ul, h1, h2, h3, h4 {
 }
 html {
   height: 100%;
-  background-image: linear-gradient(137.64deg, #EA52F8 14.6%, #0066FF 88.33%);
+  background-image: linear-gradient(137.64deg, #fff 14.6%, #0066FF 88.33%);
   background-attachment: fixed;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Moniqa", sans-serif;
   height: 100%;
 }
 .wrapper {

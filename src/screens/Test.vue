@@ -1,6 +1,6 @@
 <template>
     <div class="test">
-        <h2 class="test__title" :class="{test__smallTitle: questNumber === 2 || questNumber === 5}">{{getTitle}}</h2>
+        <h2 class="test__title">{{getTitle}}</h2>
 
         <ul class="button__list" v-if="questNumber <= 2">
             <li class="button__item" v-for="(ans, i) of getButtonAnswer" :key="i">
@@ -27,7 +27,7 @@
                 class="location__input" v-model.trim="cityValue" @focusout="onNextPage">
 
             <ul class="location__list" :class="{hidden: active}">
-                <li class="location__item" v-for="(city,i) of search" :key="i" @click="selectCity(i)" ref="city">
+                <li class="location__item" v-for="(city,i) of search" :key="i" ref="city">
                     {{city}}</li>
             </ul>
 
@@ -36,7 +36,6 @@
 </template>
 
 <script>
-import { getCity } from "@/services/landAPI";
 export default {
     name: 'test',
     props: ['text', 'start', 'cities'],
@@ -115,10 +114,6 @@ export default {
         },
         autoGetCity() {
             if (event.currentTarget.classList.contains('location__auto')) {
-                let app = this;
-                getCity().then((response) => {
-                    app.currentCity = response.data.city;
-                });
                 setTimeout(() => {
                     this.$emit('nextPage', 'calculate');
                 }, 1000)
@@ -149,13 +144,10 @@ export default {
     &__title {
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 30px;
         line-height: 1.5;
         text-align: center;
         color: #203144;
-    }
-    &__smallTitle {
-        font-size: 16px;
     }
 }
 .button {
@@ -196,7 +188,7 @@ export default {
         align-items: center;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 1.5;
         color: #203144;
         transition: all 1s ease;
@@ -247,7 +239,7 @@ export default {
         color: #fff;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 1.5;
         cursor: pointer;
     }
@@ -266,7 +258,7 @@ export default {
         border-radius: 10px;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 1.5;
         color: #fff;
         width: 250px;
@@ -281,7 +273,7 @@ export default {
         border-radius: 10px;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 1.5;
         border: 1px solid #000;
         width: 250px;
@@ -305,7 +297,7 @@ export default {
         border-radius: 10px;
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 1.5;
         &::placeholder {
             color: #7EA4D9;

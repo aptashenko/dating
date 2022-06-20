@@ -1,49 +1,49 @@
 [
   {
     "id": "1",
-    "quest": "Elmúltál már 18 éves?",
+    "quest": "Ти згоден почати?",
     "answer": [
-      "igen",
-      "nem"
+      "Так",
+      "Ні"
     ]
   },
   {
     "id": "2",
-    "quest": "Sok kétségbeesett nővel fogsz találkozni: egyedülálló anyukákkal, hűtlen feleségekkel, akik szeretnének egy kicsit szórakozni. Megígéred, hogy titokban tartod a kilétüket?",
+    "quest": "Ти очікуєш на серйозні стосунки?",
     "answer": [
-      "igen",
-      "nem"
+      "Так",
+      "Ні"
     ]
   },
   {
     "id": "3",
-    "quest": "Milyen típusú alakot kedvelsz?",
+    "quest": "На що вперше звертаєш увагу при зустрічі?",
     "answer": [
-      "nagy mell",
-      "nagy fenék",
-      "karcsú",
-      "vékony",
-      "egyéb"
+      "зовнішній вигляд",
+      "характер",
+      "почуття стилю",
+      "почуття гумору",
+      "зріст"
     ]
   },
   {
     "id": "4",
-    "quest": "Melyik korosztályt kedveled?",
+    "quest": "Скільки тобі років?",
     "answer": [
-      "18",
-      "26",
-      "36",
-      "46",
-      "55+"
+      "до 18",
+      "18-25",
+      "26-30",
+      "30-40",
+      "41+"
     ]
   },
   {
     "id": "5",
-    "quest": "Engedélyezed az automatikus helymeghatározást?",
-    "imgQuest": "Kezdd el beírni a településed nevét!",
+    "quest": "З якого ти міста?",
+    "imgQuest": "Введіть назву твого міста..(Приклад: Vinnytsya)",
     "answer": [
-      "Engedélyezem.",
-      "Manuálisan adom meg."
+      "Обрати автоматично",
+      "Вибрати..."
     ]
   }
 ]

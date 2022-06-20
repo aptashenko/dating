@@ -1,44 +1,17 @@
 <template>
     <footer class="copyright">
         <p v-if="currentPage === 'start'">
-            © {{ new Date().getFullYear() }}. <span class="noaff">GMTech Media OÜ</span>
+            © {{ new Date().getFullYear() }}. <span class="noaff">aptasheko</span>
             <br />
-            Harju maakond, Tallinn, Lasnamäe linnaosa, Pae tn 21-25, 11415, Estonia.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, a!
             <br />
-            Bővebb tájékoztatásért lásd a <a href="./terms.php" target="_blank">Felhasználási feltételeket</a> és az
-            <a href="./privacy.php" target="_blank">Adatvédelmi irányelveinket</a>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis consequuntur voluptate unde cum dignissimos dolores architecto itaque laudantium adipisci aliquam!
             <br />
-            <a href="https://www.vodafone.hu/">https://www.vodafone.hu</a>
-            <br />
-            <span class="noaff">Affiliate: mobstra.com</span>
         </p>
         <p v-else>
-            További információ: ez egy szórakoztató szolgáltatás, melynek ára: 2500 ft/hívás.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, soluta!
             <br />
-            A szolgáltatás minden hálózatról elérhető. A szolgáltatási oldalon található gombra kattintva egy emelt
-            díjas telefonszámra kerül átirányításra. A szolgáltatás használatával megerősíti, hogy elfogadja az
-            általános szerződési feltételeinket, hogy elmúlt 18 éves, és hogy a kártyatulajdonos beleegyezésével történt
-            a szolgáltatás igénybevétele. A szolgáltatás kizárólag a szórakozás célját szolgálja. A szolgáltatást
-            biztosítja:GMTech Media OÜ, helyi cím: Harju maakond, Tallinn, Lasnamäe linnaosa, Pae tn 21-25, 11415,
-            Estonia.A szolgáltatás minden hálózatról elérhető. A szolgáltatási oldalon található gombra kattintva egy
-            emelt díjas telefonszámra kerül átirányításra. A szolgáltatás használatával megerősíti, hogy elfogadja az
-            általános szerződési feltételeinket, hogy elmúlt 18 éves, és hogy a kártyatulajdonos beleegyezésével történt
-            a szolgáltatás igénybevétele. A szolgáltatás kizárólag a szórakozás célját szolgálja. A szolgáltatást
-            biztosítja:GMTech Media OÜ, helyi cím: Harju maakond, Tallinn, Lasnamäe linnaosa, Pae tn 21-25, 11415,
-            Estonia.
-            <br />
-            Ha felhívod a telefonszámunkat, azzal beleegyezel abba, hogy reklámüzeneteket küldjünk a telefonszámodra.
-            <br />
-            A magyarországi ügyfélszolgálatunk a +36 14554695 telefonszámon érhető el. e-mail üzeneteket az <a
-                href="mailto:support@gmtechmedia.com">support@gmtechmedia.com</a> címen várunk.
-            Ügyfélszolgálat nyitvatartása: hétfő - péntek, 09:00 - 17:00.
-            <br />
-            Bővebb tájékoztatásért lásd a <a href="./terms.php" target="_blank">Felhasználási feltételeket</a> és az
-            <a href="./privacy.php" target="_blank">Adatvédelmi irányelveinket</a>
-            <br />
-            <a href="https://www.vodafone.hu/">https://www.vodafone.hu</a>
-            <br />
-            <span class="noaff">Affiliate: mobstra.com</span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus hic ut dolorum itaque distinctio at nemo. Atque natus architecto aperiam placeat excepturi pariatur optio sapiente. Ducimus quidem vitae vel blanditiis repellendus inventore. Quo aliquid illo eaque in dolorem maxime excepturi a laborum quaerat minima quisquam libero distinctio ab velit alias, laboriosam nemo tempora temporibus quasi recusandae. Officia, error commodi. Explicabo cupiditate amet, vitae sapiente quam eveniet quaerat molestiae aliquid! Beatae, pariatur velit! Illum debitis error ullam neque deleniti natus, exercitationem numquam sit, doloribus nobis, expedita adipisci. Cum voluptas voluptatem officiis, doloremque odio nostrum obcaecati, minus deleniti quas illo unde totam aliquid numquam atque quia adipisci nesciunt saepe. Eligendi in pariatur enim, fugit sed sint, blanditiis sequi maiores soluta deleniti, et perferendis ipsum earum quia dignissimos provident qui excepturi. Mollitia corrupti dolor error illo nostrum tempora voluptates. Pariatur fugit rerum dolorum ad, provident repellendus quis deserunt at porro doloremque itaque possimus, cupiditate officiis ipsum quisquam. Sed dolores magni fugit repellat accusantium voluptatem, excepturi reprehenderit amet tempora voluptate modi autem itaque laudantium nam similique esse aperiam eos! Soluta eaque dolor enim sint debitis delectus molestiae placeat error ab sequi impedit obcaecati deserunt architecto atque adipisci inventore optio voluptatum nihil, quaerat iusto neque?
         </p>
     </footer>
 </template>

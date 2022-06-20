@@ -12,7 +12,7 @@
         <div class="slider">
             <div class="slider__slides" :style="{marginLeft: margin}">
                 <div class="slider__slide" v-for="(name, i) of text.names" :key="name">
-                    <img :src="require(`../assets/img/adult/${i+1}.jpg`)" class="slider__image">
+                    <img :src="require(`../assets/img/girls/${i+1}.jpg`)" class="slider__image">
                     <p class="slider__location">{{girlDistance()}} km</p>
                     <p ref="girlsName" class="slider__name">{{name}}, {{age()}}</p>
                 </div>
@@ -89,6 +89,7 @@ export default {
 
 <style lang="scss">
 
+
 .start {
     display: flex;
     flex-direction: column;
@@ -98,12 +99,12 @@ export default {
     flex-grow: 1;
     min-height: 580px;
     &__title {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Moniqa', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 22px;
         line-height: 1.5;
-        color: #fff;
+        color: #000;
         text-align: center;
         @media (max-width: 320px) {
             font-size: 18px;
@@ -122,7 +123,7 @@ export default {
     &__item {
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 24px;
         line-height: 1.5;
         @media (max-width: 320px) {
             font-size: 12px;
@@ -136,6 +137,7 @@ export default {
         color: #fff;
         border: none;
         cursor: pointer;
+        font-size: 24px;
     }
     &__location {
         display: flex;
@@ -187,7 +189,7 @@ export default {
         left: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 1.5;
         color: #fff;
     }

@@ -20,21 +20,21 @@
   },
   "HU": {
     "title": "DateBook",
-    "description": "Háromlépéses szexrandik Magyarországon",
-    "takeASurvey": "Tölts ki egy rövid kérdőívet, hogy személyre szabott keresési eredményeket kapj!",
-    "choose": "Válaszd ki a megfelelő randipartnert, és beszélj meg vele egy időpontot!",
-    "date": "Kötöttségek nélküli randi",
-    "location": "Közelben lévő település funkció",
+    "description": "Короткий шлях для знайомств",
+    "takeASurvey": "Натискай на кнопку нижче",
+    "choose": "Пройди коротке опитування",
+    "date": "Отримай номер дівчини",
+    "location": "Пошук дівчат поряд з вами",
     "names": [
-      "Andrea",
-      "Klára",
-      "Emőke",
-      "Magdolna",
-      "Júlia",
-      "Brigitta"
+      "Надя",
+      "Оксана",
+      "Дарина",
+      "Марина",
+      "Христина",
+      "Настя"
     ],
-    "start": "Kezdés",
-    "next": "Tovább"
+    "start": "Почати",
+    "next": "Далі"
   }
   },
   "calculate": {
@@ -42,7 +42,7 @@
       "searching": "Searching for matches..."
     },
     "HU": {
-      "searching": "Találatok keresése..."
+      "searching": "Пошук співпадінь..."
     }
   },
   "result": {
@@ -53,10 +53,10 @@
       "callButton": "Call her"
     },
     "HU": {
-      "title": "1 találat van",
-      "underlineText": "Daniella hangüzenetet hagyott a potenciális szeretői számára.",
-      "resultMessage": "Hívd fel őt, és hallgasd meg az üzenetét, mielőtt megbeszélitek a randi időpontját!",
-      "callButton": "Hívd fel!"
+      "title": "У тебе 1 співпадіння",
+      "underlineText": "Анастасія чекає на твій дзвінок.",
+      "resultMessage": "Подзвони їй та назнач побачення",
+      "callButton": "Подзвонити!"
     }
   }
 }
