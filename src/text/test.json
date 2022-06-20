@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1",
+    "quest": "Elmúltál már 18 éves?",
+    "answer": [
+      "igen",
+      "nem"
+    ]
+  },
+  {
+    "id": "2",
+    "quest": "Sok kétségbeesett nővel fogsz találkozni: egyedülálló anyukákkal, hűtlen feleségekkel, akik szeretnének egy kicsit szórakozni. Megígéred, hogy titokban tartod a kilétüket?",
+    "answer": [
+      "igen",
+      "nem"
+    ]
+  },
+  {
+    "id": "3",
+    "quest": "Milyen típusú alakot kedvelsz?",
+    "answer": [
+      "nagy mell",
+      "nagy fenék",
+      "karcsú",
+      "vékony",
+      "egyéb"
+    ]
+  },
+  {
+    "id": "4",
+    "quest": "Melyik korosztályt kedveled?",
+    "answer": [
+      "18",
+      "26",
+      "36",
+      "46",
+      "55+"
+    ]
+  },
+  {
+    "id": "5",
+    "quest": "Engedélyezed az automatikus helymeghatározást?",
+    "imgQuest": "Kezdd el beírni a településed nevét!",
+    "answer": [
+      "Engedélyezem.",
+      "Manuálisan adom meg."
+    ]
+  }
+]

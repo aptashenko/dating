@@ -1,0 +1,62 @@
+{
+  "start": {
+  "UK": {
+    "title": "DateBook",
+    "description": "3-step sex dates in Hungary",
+    "takeASurvey": "Take a short survey to get customized search results",
+    "choose": "Choose a match and schedule a date",
+    "date": "A date with no strings attached",
+    "location": "\"Near me\" location",
+    "names": [
+      "Andrea",
+      "Klára",
+      "Emőke",
+      "Magdolna",
+      "Júlia",
+      "Brigitta"
+    ],
+    "start": "Start",
+    "next": "Next"
+  },
+  "HU": {
+    "title": "DateBook",
+    "description": "Háromlépéses szexrandik Magyarországon",
+    "takeASurvey": "Tölts ki egy rövid kérdőívet, hogy személyre szabott keresési eredményeket kapj!",
+    "choose": "Válaszd ki a megfelelő randipartnert, és beszélj meg vele egy időpontot!",
+    "date": "Kötöttségek nélküli randi",
+    "location": "Közelben lévő település funkció",
+    "names": [
+      "Andrea",
+      "Klára",
+      "Emőke",
+      "Magdolna",
+      "Júlia",
+      "Brigitta"
+    ],
+    "start": "Kezdés",
+    "next": "Tovább"
+  }
+  },
+  "calculate": {
+    "UK": {
+      "searching": "Searching for matches..."
+    },
+    "HU": {
+      "searching": "Találatok keresése..."
+    }
+  },
+  "result": {
+    "UK": {
+      "title": "You have 1 match",
+      "underlineText": "Daniela left a voice message for her potential lovers",
+      "resultMessage": "Call her and listen to it before setting up a date!",
+      "callButton": "Call her"
+    },
+    "HU": {
+      "title": "1 találat van",
+      "underlineText": "Daniella hangüzenetet hagyott a potenciális szeretői számára.",
+      "resultMessage": "Hívd fel őt, és hallgasd meg az üzenetét, mielőtt megbeszélitek a randi időpontját!",
+      "callButton": "Hívd fel!"
+    }
+  }
+}

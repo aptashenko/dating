@@ -1,0 +1,22 @@
+<%= require('html-loader!../src/static/vars.php') %>
+<!DOCTYPE html>
+<html lang="en" id="html">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <meta name="theme-color" content="#006C60" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Date book</title>
+    <%= require('html-loader!../src/static/tracker_code.php') %>
+  </head>
+  <body>
+    <%= require('html-loader!../src/static/fb_html_pixel.php') %>
+    <div id="app"></div>
+    <input type="hidden" id="binom" value="{clickid}" />
+  </body>
+</html>
